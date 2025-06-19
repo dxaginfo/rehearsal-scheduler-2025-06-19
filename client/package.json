@@ -1,0 +1,73 @@
+{
+  "name": "rehearsal-scheduler-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.17.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/lab": "^5.0.0-alpha.149",
+    "@mui/material": "^5.14.14",
+    "@mui/x-date-pickers": "^6.16.3",
+    "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.5.1",
+    "d3": "^7.8.5",
+    "date-fns": "^2.30.0",
+    "firebase": "^10.5.0",
+    "formik": "^2.4.5",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.8.4",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-push": "^3.6.6",
+    "workbox-background-sync": "^7.0.0",
+    "workbox-core": "^7.0.0",
+    "workbox-expiration": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-strategies": "^7.0.0",
+    "yup": "^1.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/d3": "^7.4.1",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.59",
+    "@types/react": "^18.2.33",
+    "@types/react-big-calendar": "^1.8.0",
+    "@types/react-dom": "^18.2.14",
+    "msw": "^1.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
